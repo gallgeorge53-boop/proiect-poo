@@ -166,7 +166,7 @@ class Antrenor {
     std::string rol;
     int OVR;
 public:
-    explicit Antrenor(std::string nume = "Nume neintrodus", int zi = 1, int luna = 1, int an = 1970, std::string rol = "Rol neintrodus", int OVR = 0)
+    explicit Antrenor(std::string nume = "Nume neintrodus ", int zi = 1, int luna = 1, int an = 1970, std::string rol = "Rol neintrodus", int OVR = 0)
         : nume(std::move(nume)), zi_nastere(zi), luna_nastere(luna), an_nastere(an), rol(std::move(rol)), OVR(OVR) {
     }
     friend std::ostream& operator<<(std::ostream &os, const Antrenor &antenor) {
