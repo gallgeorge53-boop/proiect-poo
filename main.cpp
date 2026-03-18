@@ -16,10 +16,10 @@ public:
         : finishing(finishing), dribbling(dribbling), faze_fixe(faze_fixe), tackling(tackling) {
     }
     friend std::ostream& operator<<(std::ostream& os, const Atribute_Tehnice &t) {
-        os << "finishing:" << t.finishing << "\n";
-        os << "dribbling:" << t.dribbling << "\n";
-        os << "faze_fixe:" << t.faze_fixe << "\n";
-        os << "tackling:" << t.tackling << "\n";
+        os << "finishing: " << t.finishing << "\n";
+        os << "dribbling: " << t.dribbling << "\n";
+        os << "faze_fixe: " << t.faze_fixe << "\n";
+        os << "tackling: " << t.tackling << "\n";
         return os;
     }
     friend class Jucator;
