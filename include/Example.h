@@ -9,4 +9,4 @@ public:
     void g();
 };
 
-#endif // EXAMPLE_H
+#endif // EXAMPLE_H1
